@@ -13,7 +13,7 @@ class DB
         $username = 'root';
         $password = '';
         $options = array(
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_LAZY,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         );
         $this->_db = new PDO($dsn, $username, $password, $options);

@@ -65,7 +65,7 @@ class DB
                 }
             }
 
-            if (preg_match("/\*\/;$/", $lines[$i])) {
+            if (preg_match("/\*\/;/", $lines[$i])) {
                 $in_comment = false;
             }
         }

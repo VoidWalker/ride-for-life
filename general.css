@@ -1,0 +1,20 @@
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table#product-list th {
+    background-color: aquamarine;
+}
+
+table#product-list tr:nth-child(even) {
+    background-color: #898989;
+}
+
+table#product-list tr:nth-child(odd) {
+    background-color: #d1d1d1;
+}

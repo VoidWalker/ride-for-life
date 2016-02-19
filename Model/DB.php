@@ -1,6 +1,7 @@
 <?php
+include_once BP . "/config.php";
 
-class DB
+class Model_DB
 {
     protected $_db;
 

@@ -7,7 +7,7 @@ class Controller_productlistController {
         $stmt = $db->query("SELECT * FROM product");
         $products = $stmt->fetchAll();
 
-        include "../template/productList.phtml";
+        include BP . "/template/productList.phtml";
     }
 }
 

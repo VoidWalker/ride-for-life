@@ -1,5 +1,6 @@
 <?php
 
+define('BP', getcwd());
 require_once 'autoload.php';
 
 class Main

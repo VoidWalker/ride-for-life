@@ -7,7 +7,7 @@ class Controller_apiController
         //$requestBody = json_decode(file_get_contents('php://input'));
         $db = Model_DB::DBInstance()->DB();
         $stmt = $db->query("SELECT * FROM product");
-        var_dump($stmt->fetchAll());
+        echo json_encode($stmt->fetchAll());
     }
 
 } 
